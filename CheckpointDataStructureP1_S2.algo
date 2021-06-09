@@ -1,0 +1,20 @@
+ALGORITHM DataStructureP1_S2
+VAR
+  Htab1:HASH_TABLE<Integer,Integer>;
+  Htab2:HASH_TABLE<Integer,Integer>;
+  Sum:Integer=0;
+BEGIN
+    FOR i FROM 0 TO 5 STEP 1  DO
+        Read(Htab1)
+    END_FOR
+    FOR j FROM 0 TO 5 STEP 1  DO
+        Read(Htab2)
+    END_FOR
+    FOR i FROM 0 TO Htab1.length STEP 1  DO
+   FOR j FROM 0 TO Htab2.length STEP 1  DO
+      IF(Htab1<i,Integer>=tab2<j,Integer>) THEN
+         Sum+=(tab1<i,Integer>);
+      END_IF
+   END_FOR
+ END_FOR
+END

@@ -1,0 +1,20 @@
+ALGORITHM DataStructureP2_S1
+VAR
+    tab1: ARRAY_OF Integer[];
+    tab2: ARRAY_OF Integer[];
+    Sum:Integer:=0;
+BEGIN
+FOR i FROM 0 TO 5 DO
+       Read(tab[i]);
+   END_FOR
+   FOR j FROM 0 TO 5 DO
+       Read(tab[j]);
+   END_FOR
+ FOR i FROM 0 TO tab1.length STEP 1  DO
+   FOR j FROM 0 TO tab2.length STEP 1  DO
+      IF(tab1[i]=tab2[j]) THEN
+         Sum+=(2*tab1[i]);
+      END_IF
+   END_FOR
+ END_FOR
+END
