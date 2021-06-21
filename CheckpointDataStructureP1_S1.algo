@@ -5,10 +5,10 @@ VAR
     Sum:Integer:=0;
 BEGIN
 FOR i FROM 0 TO 5 DO
-       Read(tab[i]);
+       Read(tab1[i]);
    END_FOR
    FOR j FROM 0 TO 5 DO
-       Read(tab[j]);
+       Read(tab2[j]);
    END_FOR
  FOR i FROM 0 TO tab1.length STEP 1  DO
    FOR j FROM 0 TO tab2.length STEP 1  DO
